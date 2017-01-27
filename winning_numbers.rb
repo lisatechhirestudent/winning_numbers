@@ -1,3 +1,3 @@
-def winning_number(*numbers)
-	2345	
+def winning_number(1, winning_numbers)
 end
+
