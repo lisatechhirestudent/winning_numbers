@@ -3,4 +3,15 @@ winning_tickets.include? (my_ticket)
 puts my_ticket
 end
 
+def winningOnumber_each?(my_ticket, winning_tickets)
+	winner = false
+
+	winning_tickets.each do |ticket|
+		if my_ticket == ticket
+			return true
+		end
+	end
+	winner
+end
+
 #winning_number_include?("5423, ["5423")
