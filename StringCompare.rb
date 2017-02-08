@@ -1,6 +1,6 @@
 def winning_number_include?(my_ticket, winning_tickets)
-winning_tickets.include? (my_ticket)
-puts my_ticket
+	winning_tickets.include
+	puts my_ticket
 end
 
 def winning_number_each?(my_ticket, winning_tickets)
@@ -13,5 +13,3 @@ def winning_number_each?(my_ticket, winning_tickets)
 	end
 	winner
 end
-
-#winning_number_include?("5423, ["5423")
